@@ -1,0 +1,55 @@
+.taskBox {
+  box-shadow: 10px 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+  padding: 5px;
+  height: 150px;
+}
+.TextBox {
+  width: 300px;
+}
+
+.TextBox p {
+  word-wrap: break-word;
+}
+h1 {
+  color: black;
+  font-family: sans;
+  margin-left: 50px;
+}
+.addedTask {
+  display: flex;
+  flex-wrap: wrap;
+}
+.taskboxDone {
+  text-decoration: line-through;
+}
+
+.DateBox {
+  background-color: rgb(173, 173, 173);
+  margin-left: 100px;
+  text-align: center;
+  width: fit-content;
+  padding: 2.5px;
+  border-radius: 5px;
+}
+.textareaBox {
+  margin-left: 50px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 150px;
+  height: 30px;
+  background-color: antiquewhite;
+  border: none;
+  box-shadow: 5px 5px 10px;
+  cursor: pointer;
+}
+.btn:active {
+  width: 145px;
+  transition: 0.1s ease-in-out;
+}
